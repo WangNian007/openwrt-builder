@@ -23,7 +23,7 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 # 常用软件服务
 
 # OpenClash 代理
-#PACKAGES="$PACKAGES luci-app-openclash"
+PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # frp 和 nps 内网穿透
@@ -96,4 +96,4 @@ PACKAGES="$PACKAGES netdata"
 DISABLED_SERVICES="sshd dockerd"
 
 #make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
-make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" DISABLED_SERVICES="$DISABLED_SERVICES"
+make image PROFILE="$PROFILE"
