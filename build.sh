@@ -74,7 +74,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 #PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
 
 # Packages 文件夹下的 ipk 包
-PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 
 # 一些自己需要的内核组件
 #PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
