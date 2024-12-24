@@ -13,6 +13,8 @@ PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 
 #LUCI 界面
 PACKAGES="$PACKAGES luci-app-uhttpd"
+#中文包
+PACKAGES="$PACKAGES luci-i18n-base-zh-cn"
 
 # 常用系统管理组件
 
