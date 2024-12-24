@@ -14,7 +14,7 @@ PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 #LUCI 界面
 PACKAGES="$PACKAGES luci luci-lib-ipkg"
 #中文包
-PACKAGES="$PACKAGES luci-i18n-base-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-base-zh-cn luci-i18n-package-manager-zh-cn luci-i18n-firewall-zh-cn"
 
 # 常用系统管理组件
 
@@ -65,6 +65,8 @@ PACKAGES="$PACKAGES luci-app-openclash"
 
 # 网络组件
 
+#SmartDns
+PACKAGES="$PACKAGES luci-app-smartdns luci-i18n-smartdns-zh-cn"
 # EQoS 网速控制
 #PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
 # 多线多拨与负载均衡
