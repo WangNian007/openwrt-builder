@@ -12,7 +12,7 @@ PACKAGES=""
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 
 #LUCI 界面
-PACKAGES="$PACKAGES luci"
+PACKAGES="$PACKAGES luci luci-lib-ipkg"
 #中文包
 PACKAGES="$PACKAGES luci-i18n-base-zh-cn"
 
