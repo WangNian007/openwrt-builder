@@ -68,7 +68,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # 多线多拨与负载均衡
 #PACKAGES="$PACKAGES luci-app-syncdial luci-i18n-mwan3-zh-cn"
 # 宽带监控 Nlbwmon
-PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 
 # 界面翻译补全
 #PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
