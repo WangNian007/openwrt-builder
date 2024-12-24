@@ -14,7 +14,7 @@ PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 #LUCI 界面
 PACKAGES="$PACKAGES luci luci-lib-ipkg"
 #中文包
-PACKAGES="$PACKAGES luci-i18n-base-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-base-zh-cn luci-i18n-opkg-zh-cn"
 
 # 常用系统管理组件
 
